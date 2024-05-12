@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Humza Siddiqui CAD projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Material Testing<br />
+						in ANSYS</h1>
+						<p>Used ANSYS to work out various parameter of 2024 Aluminum.</p> 
+						<ul class="actions">							
+						</ul>
+					</div>
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Projects</a></li>
+						</ul>
+
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+							<!-- Project 1 -->
+							<section class="posts">
+								</article>
+								<article>
+									<header>
+										<h2><a>Stress analysis<br />
+										for a fixed beam</a></h2>
+									</header>
+									<p><img src="images/HAND p1.png" controls height="500" width="400" alt="" /></p>
+									<h4>Figure 1 shows back calculations</h4>
+									<p>From figure 1 we can see that shear stress remains constant throughout the
+										beam. The bending stress at fixed support is not a reliable result due to the stress
+										singularity therefore the bending stress at 100 mm is what is used to compare the
+										results</p>
+
+										<h3>Stresses right next to the fixed support</h3>
+
+										<p class="image fit"><img src="images/fixed pic.png" alt=""/> </p>
+										<h4>Figure 2</h4>
+										<p>Figure 2 shows shear and bending stress distribution on the beam near the fixed support</p>
+
+										<p class="image fit"><img src="images/3D table.png" alt=""/> </p>
+										<h4>Figure 3 shows 3D convergence test ANSYS data</h4>
+
+										<p class="image fit"><img src="images/3D convergence.png" alt=""/> </p>
+										<h4>Figure 4 shows 3D convergence test</h4>
+
+										<p> Figure 3 and 4 shows shear and bending stress near the foxed support of the beam. From iteration to iteration we decreased the mesh size. From
+											the graph we can see that the shear and bending stress are increasing exponentially iteration to iteration.
+											This is because we are taking the stress at a fixed point. And due to the stress singularity our bending
+											and shear stress diverges instead of converging.</p>
+											
+										<h3>Stresses 100 mm away from fixed support</h3>
+
+										<p class="image fit"><img src="images/100 mm pic.png" alt=""/> </p>
+										<h4>Figure 5</h4>
+										<p>Figure 5 shows shear and bending stress distribution on the beam 100 mm away from the fixed support</p>
+
+										<p class="image fit"><img src="images/100 mm table.png" alt=""/> </p>
+										<h4>Figure 6 shows 3D convergence test ANSYS data</h4>
+
+										<p class="image fit"><img src="images/100 mm.png" alt=""/> </p>
+										<h4>Figure 7 shows 3D convergence test</h4>
+
+										<p> Figure 6 and 7 shows shear and bending stress 100 mm  away from the foxed support.  From the graph we can see that at 100 mm away bending stress converges to a value of around
+											54 MPa which is what was calculated in backhand calculations. This is because at 100 mm away the stress singularity
+											caused from fixed support has no effect on the stresses. And the shear also converges to a value of
+											around 1.5 MPa.</p>
+						</article>
+
+							
+						<article>
+							<header>
+							<h2>Dealing with stress concentration</h2>
+								<p>Main objective of this project was to vary the diameter of the cut and observe how the stresses vary around the cut.</p>
+
+								<p class="image fit"><img src="images/1 inch.png" alt=""/> </p>
+								<h4>Figure 1 shows 1 inch hole</h4>
+								<p> Figure 1 shows how the stress concentration varies around the 1 inch hole and how the stress iteration converges.</p>
+								
+								<p class="image fit"><img src="images/0.75 inch.png" alt=""/> </p>
+								<h4>Figure 2 shows 0.75 inch hole</h4>
+								<p> Figure 2 shows how the stress concentration varies around the 0.75 inch hole and how the stress iteration converges.</p>
+
+								<p class="image fit"><img src="images/formulae.png" alt=""/> </p>
+								<h4>Figure 3</h4>
+								<p>Using the formulae shown in figure 3 we can calculate all the parameters for all the different diameter holes. Equation 4 gives us the sigma max value for ANSYS and equation 2 gives us the sigma max actual values.</p>
+
+								<p class="image fit"><img src="images/data.png" alt=""/> </p>
+								<h4>Figure 4</h4>
+								<p>Figure 4 shows all the data for all the different diameter holes.</p>
+
+								<p class="image fit"><img src="images/graph.png" alt=""/> </p>
+								<h4>Figure 5</h4>
+								<p>Figure 5 shows how my data compared to already existing data online.</p>
+
+
+						</article>
+
+			</section>
+		</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+						<section class="split contact">
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">msiddi14@asu.edu</a></p>
+							</section>
+							<section>
+							</section>
+						</section>
+					</footer>
+
+				
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
